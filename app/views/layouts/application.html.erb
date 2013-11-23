@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Distributedhealth</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <%= render 'layouts/head' %>
 
-<%= yield %>
-
-</body>
+  <%= content_tag :body do %>
+    <%= render 'layouts/header' %>
+    <%#= render 'layouts/container' %>
+    <%#= render 'layouts/crumbs' %>
+    <%#= render 'layouts/tdr_content' %>
+    <%= render 'layouts/footer' %>
+  <% end %>
 </html>
