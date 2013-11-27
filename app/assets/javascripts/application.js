@@ -14,4 +14,15 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap.min
+//= require parallax
 //= require_tree .
+
+// Scroll-down function
+$(document).ready(function () {
+  // Handler for .ready() called.
+  $('#scroll-down-button').click(function () {
+    $('html, body').animate({
+        scrollTop: $('#mission').offset().top - 250
+    }, 'slow');
+  });
+});

@@ -4,9 +4,7 @@
 
   <%= content_tag :body do %>
     <%= render 'layouts/header' %>
-    <%#= render 'layouts/container' %>
-    <%#= render 'layouts/crumbs' %>
-    <%#= render 'layouts/tdr_content' %>
+    <%= yield %>
     <%= render 'layouts/footer' %>
   <% end %>
 </html>

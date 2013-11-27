@@ -1,2 +1,111 @@
-<h1>Distributed Health Labs</h1>
-<p>A place where magic happens.</p>
+<% provide(:title, 'Foobar') %>
+
+<div id='start-here' class='scroll-arrow'>
+  <button id='scroll-down-button' type="button" class="btn btn-link">
+    <i class='fa fa-angle-double-down fa-5x'></i>
+  </button>
+</div>
+
+<div id='xprize-badge'>
+  <a id='xprize-img' href='#'></a>
+</div>
+
+<section id='landing'>
+  <div class='background-image'>
+  <div class='bg-overlay'>
+    <div class='container'>
+      <h1><span class='muted'>we are<br></span>
+        <span class='subtle-opacity'>distributed <span class='pink'>health</span> labs</span>
+      </h1>
+
+      <div class='row'>
+        <div class='col-md-6'>
+          <iframe src="//player.vimeo.com/video/66929836" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <div class='col-md-6'>
+          <h2>a <strong>research lab</strong> at the California Institute for Telecommunications and Information Technology. We're kind of <br><strong>a big deal</strong>.</h2>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+</section>
+
+
+<!-- Mission Statement -->
+<section id='mission'>
+  <h1>our mission</h1>
+  <div class='container'>
+    <blockquote class='pull-right'>
+      <p>Our philosophy is centered on the notion that inexpensive and interconnected technology will change the global health equation - be it individual, community, or environmental health. Our mission is to create an open community of innovators and adopters to make that happen.</p>
+    </blockquote>
+  </div>
+  <%= scroll_arrow('ohs-intro') %>
+</section>
+
+
+<!-- Open Health Stack intro -->
+<section id='ohs-intro'>
+  <div class='container'>
+    <div id='ohs-header'>
+      <span class='muted'>that's why we're building the</span>
+    </div>
+
+    <div class='row'>
+      <div class='col-md-4'>
+        <h2>
+        open<br>
+        <span class=pink>health<br></span>
+        stack<br>
+        </h2>
+      </div>
+      <div class='col-md-4'>
+        <i class='fa fa-cloud jumbo-icon'></i><br>
+        <i class='fa fa-arrows-v big-icon'></i><br>
+        <i class='fa fa-mobile jumbo-icon'></i><br>
+        <i class='fa fa-arrows-v big-icon'></i><br>
+        <i class='fa fa-stethoscope jumbo-icon'></i>
+      </div>
+      <div class='col-md-4'>
+        <h3> cloud infrastructure</h3>
+        <i class='fa fa-plus big-icon'></i><br>
+        <h3>mobile apps</h3>
+        <i class='fa fa-plus big-icon'></i><br>
+        <h3>sensors</h3>
+        </h3>
+      </div>
+    </div>
+  </div>
+
+  <%= scroll_arrow 'bar' %>
+</section>
+
+
+
+<!-- Open Health Stack overview -->
+<section id='ohs-overview'>
+  <div id='sense-summary'>
+    <div class='parallax-banner' data-speed='5' data-type="background">
+      <img class='pull-right' src='/images/sense-logo.jpg'></img>
+        <span class='banner-heading'>Something Awesome</span>
+        <p>The quick brown fox jumped over the sleeping cow.</p>
+    </div>
+  </div>
+
+  <div id='myoasis-summary' data-speed='5' data-type="background">
+    <div class='pull-right parallax-banner'>
+      <img class='pull-left' src='/images/myoasis-logo.jpg'></img>
+        <span class='banner-heading'>Something Awesome</span>
+        <p>The quick brown fox jumped over the sleeping cow.</p>
+    </div>
+  </div>
+
+  <div id='keep-summary' data-speed='5' data-type="background">
+    <div class='parallax-banner'>
+      <img class='pull-right' src='/images/keep-logo.png'></img>
+        <span class='banner-heading'>Something Awesome</span>
+        <p>The quick brown fox jumped over the sleeping cow.</p>
+    </div>
+  </div>
+</section>
