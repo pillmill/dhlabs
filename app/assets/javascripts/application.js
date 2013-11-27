@@ -17,12 +17,23 @@
 //= require parallax
 //= require_tree .
 
-// Scroll-down function
 $(document).ready(function () {
-  // Handler for .ready() called.
+  // Scroll-down function
   $('#scroll-down-button').click(function () {
     $('html, body').animate({
         scrollTop: $('#mission').offset().top - 250
     }, 'slow');
   });
+
+  // Sticky navbar function
+  $(window).scroll(function () {
+      if ($(window).scrollTop() > 1000) {
+          $('nav').removeClass('navbar-static-top').addClass('navbar-fixed-top');
+      };
+      if ($(window).scrollTop() <= 1000) {
+          $('nav').removeClass('navbar-fixed-top').addClass('navbar-static-top');
+      };
+  }
+  );
+
 });

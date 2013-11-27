@@ -20,7 +20,7 @@ h5 { color: white; }
 /* XPRIZE badge
 -------------------------------------------------- */
 div#xprize-badge {
-  position: fixed;
+  position: absolute;
   padding: 15px 20px;
   top: 30px;
   right: 80px;
@@ -155,6 +155,7 @@ section#ohs-intro {
 -------------------------------------------------- */
 @mixin parallax-bg($path) {
   background: url($path) 50% 0 repeat fixed; 
+  background-size: 100%;
   min-height: 1000px; 
   height: 1000px; 
   margin: 0 auto; 
