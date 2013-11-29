@@ -100,16 +100,44 @@ section#landing {
 }
 
 
-/* MISSION STATEMENT
--------------------------------------------------- */ 
-section#mission {
-  margin-top: 500px;
+
+
+/* OASIS PROJECT
+-------------------------------------------------- */
+section#oasis-project{
+  margin-top: 300px;
+  margin-bottom: 500px;
   height: 1000px;
+
+  #oasis-container {
+    position: absolute;
+    left: 100px;
+    right: 0;
+    height: inherit;
+    background-image: url(/images/connected-world.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
+
+  #oasis-quote {
+    width: 50%;
+  }
+
+  #oasis-description {
+    margin-top: 200px;
+    right: 100px;
+    padding-right: 100px;
+  }
+
+  #oasis-scroll {
+    position: relative;
+    float: left;
+  }
 
   h1 { 
     color: #666;
-    text-align: center; 
     font-size: 48pt;
+    span { color: aliceblue; }
   }
   p {
     color: #FFF;
@@ -117,7 +145,6 @@ section#mission {
   }
   blockquote { border-color: #757575; }
 }
-
 
 /* OPEN HEALTH STACK INTRO
 -------------------------------------------------- */
@@ -170,9 +197,14 @@ section#ohs-overview {
     background-color: #FFF;
     padding: 100px 200px;
 
+    .banner-text {
+      margin-top: -25px;
+    }
+
     .banner-heading {
+      line-height: 60px;
       font-size: 48pt;
-      color: #333;
+      color: #5e5e5e;
     }
     p { 
       color: #555;
@@ -183,5 +215,9 @@ section#ohs-overview {
   #sense-summary { @include parallax-bg('/images/man-on-treadmill.jpg'); }
   #myoasis-summary { @include parallax-bg('/images/person-using-phone.jpg'); }
   #keep-summary { @include parallax-bg('/images/data-center.jpg'); }
+
+  #sense-logo { margin-top: -40px; }
+  #myoasis-logo { height: 140px; margin-left: -100px; margin-right: 100px; }
+  #keep-logo {}
 }
 
