@@ -8,7 +8,7 @@
 .muted { color: #777; }
 .pink { color: pink; }
 
-h1, 
+h1,
 h2,
 h3,
 h4,
@@ -47,23 +47,23 @@ div.scroll-arrow {
   i { color: #FFF; }
 
   button:focus { outline: none; }
-  button:hover { 
+  button:hover {
     i { color: #DDD; }
   }
 }
 
 // the first scroll arrow on the landing page
 div#start-here{ bottom: 20px; }
-  
+
 
 
 
 /* LANDING PAGE
 -------------------------------------------------- */
 section#landing {
-  h1 { 
+  h1 {
     font-size: 6em;
-    margin-top: 0; 
+    margin-top: 0;
     margin-bottom: 60px;
 
     .muted { color: #444; }
@@ -71,7 +71,7 @@ section#landing {
     .subtle-opacity { background-color:rgba(175,175,175, 0.4); }
   }
 
-  h2 { 
+  h2 {
     color: #CCC;
     strong { color: white; }
   }
@@ -121,14 +121,14 @@ section#oasis-project{
     float: left;
   }
 
-  h1 { 
+  h1 {
     color: #666;
     font-size: 48pt;
     span { color: aliceblue; }
   }
   p {
     color: #FFF;
-    font-size: 30px; 
+    font-size: 30px;
   }
   blockquote { border-color: #757575; }
 }
@@ -137,7 +137,7 @@ section#oasis-project{
 -------------------------------------------------- */
 section#ohs-intro {
   #ohs-header {
-    margin: 50px auto; 
+    margin: 50px auto;
     font-size: 60pt;
     color: white;
     text-align: center;
@@ -145,9 +145,9 @@ section#ohs-intro {
 
   text-align: center;
   p { color: #CCC; }
-  h2 { 
+  h2 {
     font-size: 60pt;
-    font-weight: normal; 
+    font-weight: normal;
     line-height: 2em;
     margin-top: -10px;
   }
@@ -168,13 +168,13 @@ section#ohs-intro {
 /* OPEN HEALTH STACK OVERVIEW
 -------------------------------------------------- */
 @mixin parallax-bg($path) {
-  background: url($path) 50% 0 repeat fixed; 
+  background: url($path) 50% 0 repeat fixed;
   background-size: 100%;
-  min-height: 1000px; 
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
+  min-height: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
 }
 section#ohs-overview {
   .parallax-banner {
@@ -193,7 +193,7 @@ section#ohs-overview {
       font-size: 48pt;
       color: #5e5e5e;
     }
-    p { 
+    p {
       color: #555;
       font-size: 16pt;
     }
@@ -203,8 +203,18 @@ section#ohs-overview {
   #myoasis-summary { @include parallax-bg('/images/person-using-phone.jpg'); }
   #keep-summary { @include parallax-bg('/images/data-center.jpg'); }
 
+  #myoasis-banner { width: 600px; }
+
   #sense-logo { margin-top: -40px; }
-  #myoasis-logo { height: 140px; margin-left: -100px; margin-right: 100px; }
+  #myoasis-logo {
+    height: 400px;
+    width: 400px;
+    background-image: url(/images/myoasis-logo.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-left: -100px;
+    margin-right: 100px;
+  }
   #keep-logo {}
 }
 
