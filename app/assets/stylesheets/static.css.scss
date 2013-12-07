@@ -66,20 +66,20 @@ section#landing {
     margin-top: 0;
     margin-bottom: 60px;
 
-    .muted { color: #444; }
+    .muted { color: #BBB; }
 
-    .subtle-opacity { background-color:rgba(175,175,175, 0.4); }
+    .subtle-opacity { background-color:rgba(175,175,175, 0.1); }
   }
 
-  h2 {
-    color: #CCC;
-    strong { color: white; }
+  h2.subtle-opacity {
+    color: #FFF;
+    background-color:rgba(175,175,175, 0.5); 
   }
 
   .background-image {
     margin: 0px;
     padding: 0px;
-    background-image: url(/images/river-bg.jpg);
+    background-image: url(/images/bg-waterfall.jpg);
     background-position: 0 0;
     background-repeat: no-repeat;
     min-height: 1000px;
@@ -108,6 +108,10 @@ section#oasis-project{
 
   #oasis-quote {
     width: 50%;
+    p {
+      color: #FFF;
+      font-size: 30px;
+    }
   }
 
   #oasis-description {
@@ -126,7 +130,8 @@ section#oasis-project{
     font-size: 48pt;
     span { color: aliceblue; }
   }
-  p {
+  p.subtle-opacity {
+    background-color:rgba(175,175,175, 0.1); 
     color: #FFF;
     font-size: 30px;
   }
