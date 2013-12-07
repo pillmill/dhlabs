@@ -96,10 +96,7 @@ section#oasis-project{
   margin-bottom: 500px;
   height: 1000px;
 
-  #oasis-container {
-    position: absolute;
-    left: 100px;
-    right: 0;
+  .background-image {
     height: inherit;
     background-image: url(/images/connected-world.png);
     background-repeat: no-repeat;
@@ -107,7 +104,6 @@ section#oasis-project{
   }
 
   #oasis-quote {
-    width: 50%;
     p {
       color: #FFF;
       font-size: 30px;
@@ -137,6 +133,9 @@ section#oasis-project{
   }
   blockquote { border-color: #757575; }
 }
+
+
+
 
 /* OPEN HEALTH STACK INTRO
 -------------------------------------------------- */
@@ -169,6 +168,9 @@ section#ohs-intro {
 
   margin-bottom: 500px;
 }
+
+
+
 
 /* OPEN HEALTH STACK OVERVIEW
 -------------------------------------------------- */
