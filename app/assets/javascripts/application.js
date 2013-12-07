@@ -25,7 +25,6 @@ $(document).ready(function () {
     }, 'slow');
   });
 
-  /*
   // Sticky navbar function
   $(window).scroll(function () {
       if ($(window).scrollTop() > 1000) {
@@ -36,6 +35,5 @@ $(document).ready(function () {
       };
   }
   );
-  */
 
 });

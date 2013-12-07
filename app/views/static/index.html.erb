@@ -1,7 +1,5 @@
 <% provide(:title, 'Foobar') %>
 
-<%= render 'layouts/navbar' %>
-
 <section id='landing'>
   <div class='background-image'>
     <div class='container'>
@@ -22,16 +20,19 @@
         </div>
       </div>
 
+      <div class='row'>
+        <div id='start-here' class='scroll-arrow'>
+          <button id='scroll-down-button' type="button" class="btn btn-link">
+            <i class='fa fa-angle-double-down fa-5x'></i>
+          </button>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
 
-<div id='start-here' class='scroll-arrow'>
-  <button id='scroll-down-button' type="button" class="btn btn-link">
-    <i class='fa fa-angle-double-down fa-5x'></i>
-  </button>
-</div>
-
+<%= render 'layouts/navbar' %>
 
 <!-- Oasis Project -->
 <section id='oasis-project'>
