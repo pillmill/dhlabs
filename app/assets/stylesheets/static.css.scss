@@ -183,3 +183,31 @@ section#ohs-overview-2 {
   #myoasis-logo { margin: 10% 0; }
   #keep-logo { max-height: 270px; }
 }
+
+
+/* FULL-PAGE LAYOUT (OASIS, OHS)
+-------------------------------------------------- */
+
+.full-page {
+  margin-top: 60px;
+  .lead {
+    color: white;
+  }
+}
+
+div#open-health-stack {
+
+  #ohs-summary { 
+    margin-bottom: 2%; 
+  }
+
+  #product-line {
+    p {
+      margin-top: 10px;
+      text-align: center;
+      color: #CCC;
+    }
+    .lead { color: #CCC; }
+  }
+
+}

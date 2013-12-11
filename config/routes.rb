@@ -6,6 +6,10 @@ Distributedhealth::Application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'static#index'
 
+  # Static pages
+  get 'oasis' => 'static#oasis'
+  get 'open_health_stack' => 'static#open_health_stack'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
