@@ -56,10 +56,15 @@ section#landing {
   .background-image {
     margin: 0px;
     padding: 0px;
-    background-image: url(/images/bg-waterfall.jpg);
     background-position: center;
     background-repeat: no-repeat;
     min-height: 1000px;
+
+    background-image: url(/images/bg-waterfall-narrow.png);
+  }
+
+  @media screen and (min-width:500px) {
+    .background-image { background-image: url(/images/bg-waterfall.jpg); }
   }
 }
 
@@ -74,10 +79,13 @@ section#oasis-project{
 
   .background-image {
     height: inherit;
-    background-image: url(/images/connected-world.png);
+    background-image: url(/images/connected-world-narrow.png);
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position-x: 25%;
+  }
+  @media screen and (min-width:500px) {
+    .background-image { background-image: url(/images/connected-world.png); }
   }
 
   #oasis-quote {
