@@ -69,9 +69,8 @@ section#landing {
 /* OASIS PROJECT
 -------------------------------------------------- */
 section#oasis-project{
-  margin-top: 300px;
-  margin-bottom: 500px;
   height: 1000px;
+  margin-top: 10%;
 
   .background-image {
     height: inherit;
@@ -115,6 +114,8 @@ section#oasis-project{
 /* OPEN HEALTH STACK INTRO
 -------------------------------------------------- */
 section#ohs-intro {
+  margin-top: 10%;
+
   #ohs-header {
     margin: 50px auto;
     font-size: 60pt;
@@ -140,69 +141,13 @@ section#ohs-intro {
   .fa-stethoscope { color: pink; }
   .fa-arrows-v { color: #555; }
   .fa-plus { color: #555; }
-
-  margin-bottom: 200px;
 }
 
 
-
-
-/* OPEN HEALTH STACK OVERVIEW
--------------------------------------------------- */
-@mixin parallax-bg($path) {
-  background: url($path);
-  background-size: auto 100%;
-  min-height: 1000px;
-  height: 1000px;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1920px;
-}
-section#ohs-overview {
-  .parallax-banner {
-    position: absolute;
-    height: 400px;
-    width: 100%;
-    background-color: #FFF;
-    padding: 100px 200px;
-
-    .banner-text {
-      margin-top: -25px;
-    }
-
-    .banner-heading {
-      line-height: 60px;
-      font-size: 48pt;
-      color: #5e5e5e;
-    }
-    p {
-      color: #555;
-      font-size: 16pt;
-    }
-  }
-
-  #sense-summary { @include parallax-bg('/images/sanjay-perry.png'); }
-  #myoasis-summary { @include parallax-bg('/images/person-using-phone.jpg'); }
-  #keep-summary { @include parallax-bg('/images/data-center.jpg'); }
-
-  #myoasis-banner { width: 600px; }
-
-  #sense-logo { margin-top: -40px; }
-  #myoasis-logo {
-    height: 400px;
-    width: 400px;
-    background-image: url(/images/myoasis-logo.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    margin-left: -100px;
-    margin-right: 100px;
-  }
-  #keep-logo {}
-}
-
-/* OHS OVERVIEW -- RESPONSIVE ATTEMPT
+/* OHS OVERVIEW
 -------------------------------------------------- */
 section#ohs-overview-2 {
+  margin-top: 20%;
 
   .row { padding: 5% 0; }
 
