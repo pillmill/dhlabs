@@ -18,6 +18,17 @@ footer {
 nav {
   span.pink{ padding: 0 2px; }
   margin-bottom: 40px;
+
+  ul.dropdown-menu {
+    background-color: #222;
+    .dropdown-header { color: #AAA; }
+    li.divider { background-color: #444; }
+    a { 
+      color: #CCC; 
+    }
+    a:hover {background-color: #DDD;} 
+  }
+
 }
 
 header {

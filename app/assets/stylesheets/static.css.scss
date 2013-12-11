@@ -205,3 +205,36 @@ section#ohs-overview {
   #keep-logo {}
 }
 
+/* OHS OVERVIEW -- RESPONSIVE ATTEMPT
+-------------------------------------------------- */
+section#ohs-overview-2 {
+  margin-bottom: 1000px;
+
+  .row { padding: 5% 0; }
+
+  .banner {
+    position: relative;
+    min-height: 400px;
+    width: 100%;
+    background-color: #FFF;
+
+    .banner-heading {
+      line-height: 60px;
+      font-size: 48pt;
+      color: #5e5e5e;
+    }
+
+    p {
+      color: #555;
+      font-size: 16pt;
+    }
+  }
+
+  #sense-image {
+    position: relative;
+    width: 100%;
+    background: url('/images/sanjay-perry.png');
+    background-size: auto 100%;
+    margin: 0;
+  }
+}
