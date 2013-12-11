@@ -15,6 +15,7 @@
 //= require turbolinks
 //= require bootstrap.min
 //= require parallax
+//= require picturefill
 //= require_tree .
 
 $(document).ready(function () {
