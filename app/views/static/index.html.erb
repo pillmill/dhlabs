@@ -1,5 +1,7 @@
 <% provide(:title, 'Foobar') %>
 
+<%= render 'layouts/navbar' %>
+
 <section id='landing'>
   <div class='background-image'>
     <div class='container'>
@@ -15,7 +17,7 @@
       <div class='row'>
         <div class='col-md-6 col-xs-12'>
           <h2 class='subtle-opacity'>
-            a <strong>research lab</strong> at the Qualcomm Institute. Together, we're gonna do<br><strong> big things</strong>.
+            a <strong>research lab</strong> at the Qualcomm Institute. We are studying how to transform small, individual actions into <strong>global changes</strong>.
           </h2>
         </div>
       </div>
@@ -31,8 +33,6 @@
     </div>
   </div>
 </section>
-
-<%= render 'layouts/navbar' %>
 
 <!-- Oasis Project -->
 <section id='oasis-project'>
@@ -88,35 +88,3 @@
   <%= scroll_arrow 'bar' %>
 </section>
 
-
-
-<!-- Open Health Stack overview -->
-<section id='ohs-overview'>
-  <div id='sense-summary' data-speed='5' data-type="background">
-    <div class='parallax-banner'>
-      <img id='sense-logo' class='pull-right' src='/images/sense-logo.png'></img>
-      <div class='banner-text'>
-        <span class='banner-heading'>Check your vital signs.<br/><span class="text-muted">And Earth's too.</span></span>
-        <p>A tricorder for the globe, SENSE is a pocket-size device that takes environmental and health measurements.</p>
-      </div>
-    </div>
-  </div>
-
-  <div id='myoasis-summary' data-speed='5' data-type="background">
-    <div class='parallax-banner'>
-      <div id='myoasis-logo' class='pull-left'></div>
-      <div id='myoasis-banner' class='banner-text pull-right'>
-        <span class='banner-heading'>The data you need,<br> <span class='text-muted'>at your fingertips.</span></span>
-        <p>Sync and upload to KEEP, then the get actionalable, at-a-glance metrics you need to improve your health and the health of your surroundings.</p>
-      </div>
-    </div>
-  </div>
-
-  <div id='keep-summary' data-speed='5' data-type="background">
-    <div class='parallax-banner'>
-      <img id='keep-logo' class='pull-right' src='/images/keep-logo.png'></img>
-        <span class='banner-heading'>Together we can tell our story.</span>
-        <p>Secure data storage and analytics in the cloud, KEEP protects your privacy and something about data visualizations.</p>
-    </div>
-  </div>
-</section>

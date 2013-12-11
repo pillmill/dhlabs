@@ -155,8 +155,8 @@ section#ohs-intro {
 /* OPEN HEALTH STACK OVERVIEW
 -------------------------------------------------- */
 @mixin parallax-bg($path) {
-  background: url($path) 50% 0 repeat fixed;
-  background-size: 100%;
+  background: url($path);
+  background-size: auto 100%;
   min-height: 1000px;
   height: 1000px;
   margin: 0 auto;
@@ -186,7 +186,7 @@ section#ohs-overview {
     }
   }
 
-  #sense-summary { @include parallax-bg('/images/man-on-treadmill.png'); }
+  #sense-summary { @include parallax-bg('/images/sanjay-perry.png'); }
   #myoasis-summary { @include parallax-bg('/images/person-using-phone.jpg'); }
   #keep-summary { @include parallax-bg('/images/data-center.jpg'); }
 
