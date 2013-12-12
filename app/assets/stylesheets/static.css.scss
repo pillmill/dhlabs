@@ -193,6 +193,15 @@ section#ohs-overview-2 {
   .lead {
     color: white;
   }
+
+  .tri-column {
+    p {
+      margin-top: 10px;
+      text-align: center;
+      color: #CCC;
+    }
+    .lead { color: #CCC; }
+  }
 }
 
 div#open-health-stack {
@@ -201,13 +210,10 @@ div#open-health-stack {
     margin-bottom: 2%; 
   }
 
-  #product-line {
-    p {
-      margin-top: 10px;
-      text-align: center;
-      color: #CCC;
-    }
-    .lead { color: #CCC; }
-  }
+
+}
+
+
+div#oasis-page {
 
 }
