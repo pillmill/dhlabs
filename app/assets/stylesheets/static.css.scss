@@ -31,10 +31,6 @@ div.scroll-arrow {
   }
 }
 
-// the first scroll arrow on the landing page
-//div#start-here{ bottom: 20px; }
-
-
 
 
 /* LANDING PAGE
@@ -49,8 +45,10 @@ section#landing {
   }
 
   h2.subtle-opacity {
-    color: #FFF;
+    color: #DDD;
     background-color:rgba(175,175,175, 0.5); 
+    padding: 10px 20px;
+    strong { color: #FFF; }
   }
 
   .background-image {
@@ -202,21 +200,8 @@ section#ohs-overview-2 {
     }
     .lead { color: #CCC; }
   }
-}
 
-div#open-health-stack {
-
-  #ohs-summary { 
-    margin-bottom: 2%; 
-  }
-
-
-}
-
-
-div#oasis-page {
-
-  #oasis-summary {
+  .summary {
     .tagline {
       color: #CCC;
       strong { color: white; }
@@ -224,6 +209,24 @@ div#oasis-page {
     }
     p.lead { color: #BBB; }
   }
+
+}
+
+div#open-health-stack {
+
+  #ohs-summary { 
+    margin-bottom: 2%; 
+
+  }
+
+  #keep-points {
+    .lead strong { color: #999; }
+  }
+
+}
+
+
+div#oasis-page {
 
 
 }
