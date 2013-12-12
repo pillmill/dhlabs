@@ -216,4 +216,14 @@ div#open-health-stack {
 
 div#oasis-page {
 
+  #oasis-summary {
+    .tagline {
+      color: #CCC;
+      strong { color: white; }
+      text-align: center; 
+    }
+    p.lead { color: #BBB; }
+  }
+
+
 }
