@@ -7,4 +7,7 @@ class StaticController < ApplicationController
 
   def open_health_stack
   end
+
+  def partners
+  end
 end

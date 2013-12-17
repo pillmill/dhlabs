@@ -9,6 +9,7 @@ Distributedhealth::Application.routes.draw do
   # Static pages
   get 'oasis' => 'static#oasis'
   get 'open_health_stack' => 'static#open_health_stack'
+  get 'partners' => 'static#partners'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

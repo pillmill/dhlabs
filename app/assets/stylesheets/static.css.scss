@@ -225,8 +225,11 @@ div#open-health-stack {
 
 }
 
-
-div#oasis-page {
-
-
+div#partners-page {
+  section#partners-listing {
+    h2 { text-align: center; }
+    p { color: #CCC; }
+    a { color: #DDD; }
+  }
 }
+
